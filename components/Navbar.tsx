@@ -4,9 +4,9 @@ export default function Navbar() {
       style={{ backgroundColor: "var(--navy)" }}
       className="sticky top-0 z-50 w-full shadow-lg"
     >
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4 relative">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
         {/* Logo / Name */}
-        <div className="flex flex-col items-center leading-tight absolute left-1/2 -translate-x-1/2">
+        <div className="flex flex-col items-center leading-tight">
           <span
             className="text-2xl sm:text-3xl"
             style={{ fontFamily: "var(--font-montserrat)", fontWeight: 800, color: "var(--orange)", letterSpacing: "0.02em" }}
