@@ -31,7 +31,7 @@ export default function Hero() {
 
         <p className="text-xl sm:text-2xl text-gray-200 mb-4 max-w-2xl mx-auto leading-relaxed">
           Serving Lakes of the North and Lake Arrowhead associations with
-          reliable lawn care, seasonal cleanups, snow blowing, and more.
+          reliable lawn care, landscaping, seasonal cleanups, snow blowing, and more.
         </p>
 
         <p className="text-lg text-gray-300 mb-10">
