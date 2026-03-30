@@ -8,8 +8,8 @@ export default function Navbar() {
         {/* Logo / Name */}
         <div className="flex flex-col leading-tight">
           <span
-            className="text-white text-xl sm:text-2xl"
-            style={{ fontFamily: "var(--font-playfair)", fontWeight: 800, letterSpacing: "-0.01em" }}
+            className="text-xl sm:text-2xl"
+            style={{ fontFamily: "var(--font-poppins)", fontWeight: 700, color: "var(--orange)", letterSpacing: "-0.01em" }}
           >
             Gauge&apos;s All Season Services
           </span>
