@@ -6,7 +6,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1600&q=80')",
+            "url('/hero.jpg')",
         }}
       />
       {/* Overlay */}
