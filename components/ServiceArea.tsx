@@ -28,7 +28,7 @@ export default function ServiceArea() {
               Lakes of the North
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Serving the entire Lakes of the North Association community — wooded lots, private roads, and everything in between. We know the area and we&apos;re here when you need us.
+              Serving the entire Lakes of the North Association community — wooded lots, large properties, and everything in between. We know the area and we&apos;re here when you need us.
             </p>
           </div>
 
