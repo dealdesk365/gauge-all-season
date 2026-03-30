@@ -1,9 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const poppins = Poppins({ subsets: ["latin"], variable: "--font-poppins", weight: ["600", "700", "800"] });
+const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat", weight: ["600", "700", "800"] });
 
 export const metadata: Metadata = {
   title: "Gauge's All Season Services | Northern Michigan Lawn & Snow",
@@ -24,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${poppins.variable} ${inter.className}`}>{children}</body>
+      <body className={`${inter.variable} ${montserrat.variable} ${inter.className}`}>{children}</body>
     </html>
   );
 }

@@ -6,16 +6,16 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo / Name */}
-        <div className="flex flex-col leading-tight">
+        <div className="flex flex-col items-center leading-tight">
           <span
             className="text-xl sm:text-2xl"
-            style={{ fontFamily: "var(--font-poppins)", fontWeight: 800, color: "var(--orange)", letterSpacing: "-0.01em" }}
+            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 800, color: "var(--orange)", letterSpacing: "0.02em" }}
           >
             Gauge&apos;s
           </span>
           <span
-            className="text-sm sm:text-base"
-            style={{ fontFamily: "var(--font-poppins)", fontWeight: 600, color: "white", letterSpacing: "0.02em" }}
+            className="text-xs sm:text-sm"
+            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 600, color: "white", letterSpacing: "0.08em", textTransform: "uppercase" }}
           >
             All Season Services
           </span>
