@@ -20,7 +20,7 @@ export default function ServiceArea() {
             className="rounded-2xl p-8 text-center border-2"
             style={{ borderColor: "var(--navy)", backgroundColor: "#f0f4f8" }}
           >
-            <div className="text-5xl mb-4">🌊</div>
+            <div className="text-5xl mb-4">🌲</div>
             <h3
               className="text-2xl font-extrabold mb-3"
               style={{ color: "var(--navy)" }}
@@ -37,7 +37,7 @@ export default function ServiceArea() {
             className="rounded-2xl p-8 text-center border-2"
             style={{ borderColor: "var(--navy)", backgroundColor: "#f0f4f8" }}
           >
-            <div className="text-5xl mb-4">🏔️</div>
+            <div className="text-5xl mb-4">🏡</div>
             <h3
               className="text-2xl font-extrabold mb-3"
               style={{ color: "var(--navy)" }}
