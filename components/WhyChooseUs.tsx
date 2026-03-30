@@ -2,7 +2,7 @@ const reasons = [
   {
     title: "Local & Reliable",
     description:
-      "Born and raised in Northern Michigan. I know these communities, I know these roads, and I show up — every time.",
+      "Serving Lakes of the North and Lake Arrowhead with pride. I know these communities, and I show up — every time.",
     icon: "📍",
   },
   {
