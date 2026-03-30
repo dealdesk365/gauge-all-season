@@ -21,7 +21,7 @@ export default function Hero() {
           className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
           style={{ backgroundColor: "var(--orange)", color: "white" }}
         >
-          Northern Michigan&apos;s Trusted Yard Care
+          🌱 Spring Cleanups Booking Now — Call or Text Today!
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-6">
@@ -30,8 +30,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-gray-200 mb-4 max-w-2xl mx-auto leading-relaxed">
-          Serving Lakes of the North and Lake Arrowhead associations with
-          reliable lawn care, landscaping, seasonal cleanups, snow blowing, and more.
+          Spring is here and yards need attention. Serving Lakes of the North and Lake Arrowhead associations with lawn care, landscaping, seasonal cleanups, snow blowing, and more.
         </p>
 
         <p className="text-lg text-gray-300 mb-10">

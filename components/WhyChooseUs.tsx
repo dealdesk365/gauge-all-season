@@ -23,6 +23,12 @@ const reasons = [
       "Lakes of the North and Lake Arrowhead are my home turf. I take pride in keeping our neighborhoods looking great.",
     icon: "🏡",
   },
+  {
+    title: "Young, Hungry & Local",
+    description:
+      "Gauge is 18 years old and building something real. When you hire him, you're supporting a young entrepreneur who takes pride in every job — not a faceless company.",
+    icon: "🔥",
+  },
 ];
 
 export default function WhyChooseUs() {

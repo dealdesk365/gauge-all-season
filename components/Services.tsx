@@ -32,22 +32,12 @@ const services = [
     ),
   },
   {
-    title: "Snow Blowing",
+    title: "Winter Services",
     description:
-      "Driveways and walkways cleared after every storm. Stay safe and skip the shoveling.",
+      "Snow blowing and hand shoveling for driveways, walkways, porches, and stairs. Prompt service after every snowfall so you never get stuck.",
     icon: (
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
         <path fillRule="evenodd" d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H8.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 7.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L6.168 6.241H4.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75z" clipRule="evenodd" />
-      </svg>
-    ),
-  },
-  {
-    title: "Shoveling",
-    description:
-      "Hand shoveling for porches, stairs, and tight spots. Prompt service after every snowfall.",
-    icon: (
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-8 h-8">
-        <path fillRule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25z" clipRule="evenodd" />
       </svg>
     ),
   },
