@@ -7,11 +7,11 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo / Name */}
         <div className="flex flex-col leading-tight">
-          <span className="text-white font-bold text-lg sm:text-xl">
-            Gauge&apos;s All Season
-          </span>
-          <span style={{ color: "var(--orange)" }} className="text-sm font-semibold">
-            Services
+          <span
+            className="text-white text-xl sm:text-2xl"
+            style={{ fontFamily: "var(--font-playfair)", fontWeight: 800, letterSpacing: "-0.01em" }}
+          >
+            Gauge&apos;s All Season Services
           </span>
         </div>
 
