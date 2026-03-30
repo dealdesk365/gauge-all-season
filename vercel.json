@@ -1,0 +1,7 @@
+{
+  "github": {
+    "silent": true
+  },
+  "buildCommand": "next build",
+  "ignoreCommand": "git diff HEAD^ HEAD --quiet -- . ':(exclude)public/*'"
+}
