@@ -28,9 +28,7 @@ export default function ServiceArea() {
               Lakes of the North
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Serving the entire Lakes of the North Association community — from
-              lakefront properties to wooded lots. We know the area and we&apos;re
-              here when you need us.
+              Serving the entire Lakes of the North Association community — wooded lots, private roads, and everything in between. We know the area and we&apos;re here when you need us.
             </p>
           </div>
 
@@ -47,9 +45,7 @@ export default function ServiceArea() {
               Lake Arrowhead Association
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              Providing dependable yard care and snow removal throughout the Lake
-              Arrowhead community. Seasonal or one-time — we work around your
-              schedule.
+              Serving lakefront properties and the full Lake Arrowhead Association community. Dependable yard care and snow removal — seasonal or one-time, we work around your schedule.
             </p>
           </div>
         </div>
