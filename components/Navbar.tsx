@@ -4,7 +4,7 @@ export default function Navbar() {
       style={{ backgroundColor: "var(--navy)" }}
       className="sticky top-0 z-50 w-full shadow-lg"
     >
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto px-8 py-3 flex items-center justify-between gap-4">
         {/* Logo / Name */}
         <div className="flex flex-col items-center leading-tight">
           <span
