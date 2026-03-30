@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #1a3a5c;
+  --navy-dark: #122840;
+  --navy-light: #254d7a;
+  --orange: #c85a1e;
+  --orange-dark: #a84818;
+  --orange-light: #e06a2e;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
