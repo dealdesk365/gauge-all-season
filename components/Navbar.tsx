@@ -4,17 +4,17 @@ export default function Navbar() {
       style={{ backgroundColor: "var(--navy)" }}
       className="sticky top-0 z-50 w-full shadow-lg"
     >
-      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
         {/* Logo / Name */}
-        <div className="flex flex-col items-center leading-tight">
+        <div className="flex flex-col items-center leading-tight flex-1">
           <span
-            className="text-xl sm:text-2xl"
+            className="text-2xl sm:text-3xl"
             style={{ fontFamily: "var(--font-montserrat)", fontWeight: 800, color: "var(--orange)", letterSpacing: "0.02em" }}
           >
             Gauge&apos;s
           </span>
           <span
-            className="text-xs sm:text-sm"
+            className="text-sm sm:text-base"
             style={{ fontFamily: "var(--font-montserrat)", fontWeight: 600, color: "white", letterSpacing: "0.08em", textTransform: "uppercase" }}
           >
             All Season Services
