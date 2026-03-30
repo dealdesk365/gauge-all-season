@@ -9,9 +9,15 @@ export default function Navbar() {
         <div className="flex flex-col leading-tight">
           <span
             className="text-xl sm:text-2xl"
-            style={{ fontFamily: "var(--font-poppins)", fontWeight: 700, color: "var(--orange)", letterSpacing: "-0.01em" }}
+            style={{ fontFamily: "var(--font-poppins)", fontWeight: 800, color: "var(--orange)", letterSpacing: "-0.01em" }}
           >
-            Gauge&apos;s All Season Services
+            Gauge&apos;s
+          </span>
+          <span
+            className="text-sm sm:text-base"
+            style={{ fontFamily: "var(--font-poppins)", fontWeight: 600, color: "white", letterSpacing: "0.02em" }}
+          >
+            All Season Services
           </span>
         </div>
 
