@@ -12,8 +12,8 @@ export default function Navbar() {
           <Image
             src="/gauge-logo.jpg"
             alt="Gauge's All Season Services"
-            width={120}
-            height={120}
+            width={180}
+            height={180}
             className="rounded-full object-cover shadow-lg"
             priority
           />
