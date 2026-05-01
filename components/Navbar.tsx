@@ -1,28 +1,38 @@
+import Image from "next/image";
+
 export default function Navbar() {
   return (
     <nav
       style={{ backgroundColor: "var(--navy)" }}
       className="sticky top-0 z-50 w-full shadow-lg"
     >
-      <div className="max-w-6xl mx-auto px-8 py-3 flex items-center justify-between gap-4">
-        {/* Logo / Name */}
-        <div className="flex flex-col items-center leading-tight">
-          <span
-            className="text-2xl sm:text-3xl"
-            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 800, color: "var(--orange)", letterSpacing: "0.02em" }}
-          >
-            Gauge&apos;s
-          </span>
-          <span
-            className="text-sm sm:text-base"
-            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 600, color: "white", letterSpacing: "0.08em", textTransform: "uppercase" }}
-          >
-            All Season Services
-          </span>
+      <div className="max-w-6xl mx-auto px-8 py-2 flex items-center justify-between gap-4">
+        {/* Logo */}
+        <div className="flex items-center">
+          <Image
+            src="/gauge-logo.jpg"
+            alt="Gauge's All Season Services"
+            width={64}
+            height={64}
+            className="rounded-full object-cover"
+            priority
+          />
         </div>
 
-        {/* Phone CTAs */}
+        {/* Phone CTAs + Facebook */}
         <div className="flex items-center gap-2 ml-auto">
+          <a
+            href="https://www.facebook.com/Gaugesallseasonservices"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-9 h-9 rounded-lg hover:opacity-80 transition-opacity"
+            style={{ background: "rgba(255,255,255,0.1)" }}
+            aria-label="Facebook"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
           <a
             href="tel:9894709128"
             style={{ backgroundColor: "var(--orange)" }}
