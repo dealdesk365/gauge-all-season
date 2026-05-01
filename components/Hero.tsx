@@ -20,7 +20,7 @@ export default function Hero() {
       <img
         src="/gauge-logo.jpg"
         alt="Gauge's All Season Services"
-        className="absolute top-6 left-6 w-36 h-36 sm:w-44 sm:h-44 rounded-full object-cover shadow-2xl z-10"
+        className="absolute top-4 left-4 w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover shadow-2xl z-10"
         style={{ border: "3px solid var(--orange)" }}
       />
 
