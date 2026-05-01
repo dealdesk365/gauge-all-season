@@ -17,6 +17,16 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+
+        {/* Logo */}
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/gauge-logo.jpg"
+          alt="Gauge's All Season Services"
+          className="w-40 h-40 sm:w-52 sm:h-52 rounded-full object-cover mx-auto mb-6 shadow-2xl"
+          style={{ border: "4px solid var(--orange)" }}
+        />
+
         <div
           className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
           style={{ backgroundColor: "var(--orange)", color: "white" }}

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Navbar() {
   return (
     <nav
@@ -7,16 +5,20 @@ export default function Navbar() {
       className="sticky top-0 z-50 w-full shadow-lg"
     >
       <div className="max-w-6xl mx-auto px-8 py-2 flex items-center justify-between gap-4">
-        {/* Logo — shifted toward middle */}
-        <div className="flex-1 flex justify-start pl-16">
-          <Image
-            src="/gauge-logo.jpg"
-            alt="Gauge's All Season Services"
-            width={180}
-            height={180}
-            className="rounded-full object-cover shadow-lg"
-            priority
-          />
+        {/* Brand name */}
+        <div className="flex flex-col items-start leading-tight">
+          <span
+            className="text-2xl sm:text-3xl"
+            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 800, color: "var(--orange)", letterSpacing: "0.02em" }}
+          >
+            Gauge&apos;s
+          </span>
+          <span
+            className="text-sm sm:text-base"
+            style={{ fontFamily: "var(--font-montserrat)", fontWeight: 600, color: "white", letterSpacing: "0.08em", textTransform: "uppercase" }}
+          >
+            All Season Services
+          </span>
         </div>
 
         {/* Phone CTAs + Facebook */}
