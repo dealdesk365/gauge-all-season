@@ -7,14 +7,14 @@ export default function Navbar() {
       className="sticky top-0 z-50 w-full shadow-lg"
     >
       <div className="max-w-6xl mx-auto px-8 py-2 flex items-center justify-between gap-4">
-        {/* Logo */}
-        <div className="flex items-center">
+        {/* Logo — centered bold */}
+        <div className="flex-1 flex justify-center">
           <Image
             src="/gauge-logo.jpg"
             alt="Gauge's All Season Services"
-            width={64}
-            height={64}
-            className="rounded-full object-cover"
+            width={120}
+            height={120}
+            className="rounded-full object-cover shadow-lg"
             priority
           />
         </div>
