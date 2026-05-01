@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-start justify-start overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-start justify-center overflow-hidden">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -16,7 +16,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 px-8 w-full pt-8">
+      <div className="relative z-10 px-8 max-w-5xl w-full pt-8">
         <div className="flex flex-col lg:flex-row items-start gap-10">
 
           {/* Logo — left side */}
