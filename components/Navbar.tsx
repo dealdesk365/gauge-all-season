@@ -5,14 +5,7 @@ export default function Navbar() {
       className="sticky top-0 z-50 w-full shadow-lg"
     >
       <div className="max-w-6xl mx-auto px-8 py-2 flex items-center justify-between gap-4">
-        {/* Logo in navbar */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/gauge-logo.jpg"
-          alt="Gauge's All Season Services"
-          className="w-14 h-14 rounded-full object-cover"
-          style={{ border: "2px solid var(--orange)" }}
-        />
+
 
         {/* Phone CTAs + Facebook */}
         <div className="flex items-center gap-2 ml-auto">
