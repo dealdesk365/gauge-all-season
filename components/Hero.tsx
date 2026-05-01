@@ -16,8 +16,8 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 px-4 max-w-5xl mx-auto w-full">
-        <div className="flex flex-col lg:flex-row items-center gap-10">
+      <div className="relative z-10 px-4 max-w-5xl mx-auto w-full pt-8">
+        <div className="flex flex-col lg:flex-row items-start gap-10">
 
           {/* Logo — left side */}
           {/* eslint-disable-next-line @next/next/no-img-element */}
