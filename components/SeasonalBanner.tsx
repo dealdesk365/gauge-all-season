@@ -42,7 +42,11 @@ export default function SeasonalBanner() {
           {' '}— spots are filling up fast!
         </span>
         <a
-          href="tel:9894709128"
+          href="#contact"
+          onClick={(e) => {
+            e.preventDefault();
+            document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+          }}
           style={{
             backgroundColor: '#c85a1e',
             color: '#ffffff',
@@ -52,6 +56,7 @@ export default function SeasonalBanner() {
             fontSize: '0.875rem',
             textDecoration: 'none',
             whiteSpace: 'nowrap',
+            cursor: 'pointer',
           }}
         >
           Book Now
