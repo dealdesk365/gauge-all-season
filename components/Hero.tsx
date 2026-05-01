@@ -16,23 +16,26 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+      <div className="relative z-10 px-4 max-w-5xl mx-auto w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-10">
 
-        {/* Logo */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/gauge-logo.jpg"
-          alt="Gauge's All Season Services"
-          className="w-40 h-40 sm:w-52 sm:h-52 rounded-full object-cover mx-auto mb-6 shadow-2xl"
-          style={{ border: "4px solid var(--orange)" }}
-        />
+          {/* Logo — left side */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/gauge-logo.jpg"
+            alt="Gauge's All Season Services"
+            className="w-52 h-52 sm:w-64 sm:h-64 rounded-full object-cover flex-shrink-0 shadow-2xl"
+            style={{ border: "4px solid var(--orange)" }}
+          />
 
-        <div
-          className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
-          style={{ backgroundColor: "var(--orange)", color: "white" }}
-        >
-          🌱 Spring Cleanups Booking Now — Call or Text Today!
-        </div>
+          {/* Text — right side */}
+          <div className="text-center lg:text-left">
+            <div
+              className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
+              style={{ backgroundColor: "var(--orange)", color: "white" }}
+            >
+              🌱 Spring Cleanups Booking Now — Call or Text Today!
+            </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-6">
           Your Yard,{" "}
@@ -98,6 +101,8 @@ export default function Hero() {
             989-470-9128
           </a>
         </div>
+          </div>{/* end text col */}
+        </div>{/* end flex row */}
       </div>
     </section>
   );
