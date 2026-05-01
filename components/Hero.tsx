@@ -17,17 +17,20 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 px-8 max-w-5xl w-full pt-8">
 
-        {/* Logo — left-aligned near the top */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src="/gauge-logo.jpg"
-          alt="Gauge's All Season Services"
-          className="w-52 h-52 sm:w-64 sm:h-64 rounded-full object-cover shadow-2xl mb-8"
-          style={{ border: "4px solid var(--orange)" }}
-        />
+        {/* Two-column layout: logo left, text right — stacks on mobile */}
+        <div className="flex flex-col items-center gap-8 sm:flex-row sm:items-start sm:gap-10">
 
-        {/* Text + CTAs — centered */}
-        <div className="text-center">
+          {/* Left col — Logo */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/gauge-logo.jpg"
+            alt="Gauge's All Season Services"
+            className="w-52 h-52 sm:w-64 sm:h-64 rounded-full object-cover shadow-2xl flex-shrink-0"
+            style={{ border: "4px solid var(--orange)" }}
+          />
+
+          {/* Right col — Text + CTAs, centered within this column */}
+          <div className="text-center flex-1">
           <div
             className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
             style={{ backgroundColor: "var(--orange)", color: "white" }}
@@ -99,7 +102,9 @@ export default function Hero() {
               989-470-9128
             </a>
           </div>
-        </div>
+          </div>
+
+        </div>{/* end flex row */}
 
       </div>
     </section>
