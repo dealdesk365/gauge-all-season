@@ -20,17 +20,17 @@ export default function Hero() {
       <img
         src="/gauge-logo.jpg"
         alt="Gauge's All Season Services"
-        className="absolute top-4 left-26 w-44 h-44 sm:w-56 sm:h-56 rounded-full object-cover shadow-2xl z-10"
+        className="absolute top-4 left-2 sm:left-26 w-44 h-44 sm:w-56 sm:h-56 rounded-full object-cover shadow-2xl z-10"
         style={{ border: "3px solid var(--orange)" }}
       />
 
       {/* Content — fully centered, untouched */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div
-          className="inline-block text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6"
+          className="inline-block text-xs font-bold uppercase tracking-wide sm:tracking-widest px-4 py-1.5 rounded-full mb-6 max-w-full text-center"
           style={{ backgroundColor: "var(--orange)", color: "white" }}
         >
-          🌱 Spring Cleanups Booking Now — Call or Text Today!
+          🍂 Fall Cleanups Booking Now — Call or Text Today!
         </div>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white leading-tight mb-6">

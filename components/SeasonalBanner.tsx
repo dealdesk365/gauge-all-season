@@ -20,7 +20,7 @@ export default function SeasonalBanner() {
   return (
     <div
       style={{
-        maxHeight: visible ? '80px' : '0',
+        maxHeight: visible ? '120px' : '0',
         overflow: 'hidden',
         transition: 'max-height 0.4s ease',
         backgroundColor: '#1a3a5c',
@@ -31,15 +31,16 @@ export default function SeasonalBanner() {
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          gap: '12px',
-          padding: '12px 16px',
+          flexWrap: 'wrap',
+          gap: '10px',
+          padding: '10px 40px 10px 16px',
           position: 'relative',
         }}
       >
         <span style={{ color: '#ffffff', fontWeight: 500, fontSize: '0.95rem' }}>
-          🌱{' '}
-          <span style={{ color: '#f97316' }}>Now booking spring cleanups</span>
-          {' '}— spots are filling up fast!
+          🍂{' '}
+          <span style={{ color: '#f97316' }}>Now booking fall cleanups</span>
+          {' '}— limited spots available!
         </span>
         <a
           href="#contact"
