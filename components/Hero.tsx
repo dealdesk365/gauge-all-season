@@ -20,7 +20,7 @@ export default function Hero() {
       <img
         src="/gauge-logo.jpg"
         alt="Gauge's All Season Services"
-        className="absolute top-4 left-2 sm:left-26 w-44 h-44 sm:w-56 sm:h-56 rounded-full object-cover shadow-2xl z-10"
+        className="hidden sm:block absolute top-4 left-26 w-56 h-56 rounded-full object-cover shadow-2xl z-10"
         style={{ border: "3px solid var(--orange)" }}
       />
 
@@ -39,7 +39,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-xl sm:text-2xl text-gray-200 mb-4 max-w-2xl mx-auto leading-relaxed">
-          Spring is here and yards need attention. Serving Lakes of the North and Lake Arrowhead associations with lawn care, landscaping, seasonal cleanups, snow blowing, and more.
+          Fall is here and yards need attention. Serving Lakes of the North and Lake Arrowhead associations with leaf removal, fall cleanups, lawn care, and snow removal prep.
         </p>
 
         <p className="text-lg text-gray-300 mb-10">
